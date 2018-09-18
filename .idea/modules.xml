@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logmonitor.iml" filepath="$PROJECT_DIR$/.idea/modules/logmonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logmonitor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/logmonitor_main.iml" group="logmonitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logmonitor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/logmonitor_test.iml" group="logmonitor" />
+    </modules>
+  </component>
+</project>
