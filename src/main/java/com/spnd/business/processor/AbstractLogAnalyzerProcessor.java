@@ -19,20 +19,18 @@ public abstract class AbstractLogAnalyzerProcessor implements LogAnalyzerProcess
     private LogAnalyzerDao logAnalyzerDao;
 
     public void processGrouppedData(Map<String, List<String>> logMap) {
-        List<LogDetailsEntity> logDetailsList = new LinkedList<>();
-
         logMap.forEach((eventId, jsonRecordList) -> {
             Long duration = JsonUtil.calculateDuration(jsonRecordList);
             if(duration > 4) {
                 logger.info("Event duration is beyond permissible limit");
                 LogDetailsEntity logDetails = populateLogDetailsParam(eventId, jsonRecordList.get(0), duration);
-
-                logAnalyzerDao.inserRecord(logDetails);
-                //logDetailsList.add(logDetails);
+                try {
+                    logAnalyzerDao.inserRecord(logDetails);
+                } catch (Exception e) {
+                    logger.error("Exception occured while persisting into DB : "+eventId, e);
+                }
             }
 
         });
-
-        logAnalyzerDao.inserRecords(logDetailsList);
     }
 }

@@ -33,7 +33,11 @@ public class LogAnalyzerProcessorImplV2 extends AbstractLogAnalyzerProcessor {
         logger.info("Starting getGroupedDataFromFile method of LogAnalyzerProcessorImplV2");
         ConcurrentMap<String, List<String>> logMap = new ConcurrentHashMap<>();
         contentStream.forEach(jsonRecord -> {
-            threadPoolTaskExecutor.execute(new LogAnalyzerTask(logMap, jsonRecord));
+            try{
+                threadPoolTaskExecutor.execute(new LogAnalyzerTask(logMap, jsonRecord));
+            } catch (Exception e) {
+                logger.error("Exception occured while processing record: "+jsonRecord, e);
+            }
         });
         while (true) {
             if(threadPoolTaskExecutor.getActiveCount() == 0) {
