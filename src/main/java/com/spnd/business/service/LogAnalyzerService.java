@@ -30,7 +30,7 @@ public class LogAnalyzerService {
             logAnalyzerProcessor.processGrouppedData(logMap);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Exception occured while processing file", e);
         }
     }
 
