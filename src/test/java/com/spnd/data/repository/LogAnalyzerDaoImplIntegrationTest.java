@@ -10,11 +10,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
-@RunWith(SpringRunner.class)
+/*@RunWith(SpringRunner.class)
 @ContextConfiguration(classes = { LogAnalyzerConfig.class })
-@ActiveProfiles("stream")
+@ActiveProfiles("stream")*/
 public class LogAnalyzerDaoImplIntegrationTest {
-    @Autowired
+    //@Autowired
     public LogAnalyzerDao logAnalyzerDao;
 
     //@Test
@@ -22,6 +22,5 @@ public class LogAnalyzerDaoImplIntegrationTest {
         logAnalyzerDao.inserRecord(LogAnalyzerJunitHelper.getDummyLogDetailsEntity());
     }
 
-    //@Test
 
 }

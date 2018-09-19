@@ -8,12 +8,12 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
+/*@RunWith(SpringRunner.class)
 @ContextConfiguration(classes = { LogAnalyzerConfig.class })
-@ActiveProfiles("stream")
+@ActiveProfiles("stream")*/
 public class StreamProfileContextLoadTests {
 
-	@Test
+	//@Test
 	public void contextLoads() {
 
 	}

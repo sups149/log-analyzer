@@ -17,7 +17,7 @@ public class LogAnalyzerProcessorImplTest {
 
 
     @Test
-    public void testMet() throws IOException {
+    public void testGetGroupedDataFromFile() throws IOException {
         Stream<String> contentStream = LogAnalyzerJunitHelper.getMockedStream();
         LogAnalyzerProcessor logAnalyzerProcessor = new LogAnalyzerProcessorImpl();
         Map<String, List<String>> logMap = logAnalyzerProcessor.getGroupedDataFromFile(contentStream);

@@ -6,8 +6,6 @@ import com.spnd.helper.LogAnalyzerJunitHelper;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
-import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
@@ -44,14 +42,14 @@ public class JsonUtilTest {
 
     @Test
     public void testGetTextFieldValue() {
-        String jsonRecord = LogAnalyzerJunitHelper.getDummyJsonRecord();
+        String jsonRecord = LogAnalyzerJunitHelper.getDummyJsonRecordStarted();
         String fieldValue = JsonUtil.getTextFieldValue("id", jsonRecord);
         Assert.assertEquals("scsmbstgra", fieldValue);
     }
 
     @Test
     public void testGetLongFieldValue() {
-        String jsonRecord = LogAnalyzerJunitHelper.getDummyJsonRecord();
+        String jsonRecord = LogAnalyzerJunitHelper.getDummyJsonRecordStarted();
         Long fieldValue = JsonUtil.getLongFieldValue("timestamp", jsonRecord);
         Long expected = 1491377495212L;
         Assert.assertEquals(expected, fieldValue);

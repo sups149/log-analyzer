@@ -26,8 +26,13 @@ public class LogAnalyzerJunitHelper {
         return logDetailsEntity;
     }
 
-    public static String getDummyJsonRecord() {
+    public static String getDummyJsonRecordStarted() {
         String jsonRecord = "{\"id\":\"scsmbstgra\", \"state\":\"STARTED\", \"type\":\"APPLICATION_LOG\",\"host\":\"12345\", \"timestamp\":1491377495212}";
+        return jsonRecord;
+    }
+
+    public static String getDummyJsonRecordFinished() {
+        String jsonRecord = "{\"id\":\"scsmbstgra\", \"state\":\"FINISHED\", \"type\":\"APPLICATION_LOG\",\"host\":\"12345\", \"timestamp\":1491377495221}";
         return jsonRecord;
     }
 

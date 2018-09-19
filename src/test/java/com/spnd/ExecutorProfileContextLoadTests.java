@@ -7,12 +7,12 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+/*@RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { LogAnalyzerConfig.class })
-@ActiveProfiles("taskexecutor")
+@ActiveProfiles("taskexecutor")*/
 public class ExecutorProfileContextLoadTests {
 
-	@Test
+	//@Test
 	public void contextLoads() {
 
 	}
