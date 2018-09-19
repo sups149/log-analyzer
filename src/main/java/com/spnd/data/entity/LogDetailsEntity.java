@@ -62,16 +62,16 @@ public class LogDetailsEntity {
         this.alert = alert;
     }
 
-
-    public String toString() {
-        return ReflectionToStringBuilder.toString(this);
-    }
-
     public String getEventId() {
         return eventId;
     }
 
     public void setEventId(String eventId) {
         this.eventId = eventId;
+    }
+
+
+    public String toString() {
+        return ReflectionToStringBuilder.toString(this);
     }
 }
