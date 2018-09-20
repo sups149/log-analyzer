@@ -3,6 +3,7 @@ package com.spnd.business.processsor;
 import com.spnd.business.processor.LogAnalyzerProcessor;
 import com.spnd.business.processor.LogAnalyzerProcessorImpl;
 import com.spnd.business.util.JsonUtil;
+import com.spnd.constants.LogAnalyzerConstants;
 import com.spnd.data.entity.LogDetailsEntity;
 import com.spnd.data.repository.LogAnalyzerDao;
 import org.junit.Before;
@@ -20,6 +21,7 @@ import java.util.Map;
 import com.spnd.helper.LogAnalyzerJunitHelper;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+import org.springframework.core.env.Environment;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.atLeastOnce;
@@ -36,6 +38,9 @@ public class AbstractLogAnalyzerProcessorTest {
     @Mock
     private LogAnalyzerDao logAnalyzerDao;
 
+    @Mock
+    private Environment env;
+
     @Before
     public void setUp() {
         MockitoAnnotations.initMocks(this);
@@ -45,6 +50,7 @@ public class AbstractLogAnalyzerProcessorTest {
     @PrepareForTest(JsonUtil.class)
     public void testProcessGrouppedData() {
         Mockito.when(logAnalyzerDao.inserRecord(any(LogDetailsEntity.class))).thenReturn("42");
+        Mockito.when(env.getProperty(LogAnalyzerConstants.MAX_DURATION)).thenReturn("4");
         Map<String, List<String>> grouppedData = LogAnalyzerJunitHelper.getDummyGrouppedData();
         spy(JsonUtil.class);
         List<String> jsonRecordList = LogAnalyzerJunitHelper.getDummyJsonRecordList();
