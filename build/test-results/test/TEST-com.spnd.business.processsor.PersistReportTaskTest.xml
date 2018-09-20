@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spnd.business.processsor.PersistReportTaskTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-19T22:39:08" hostname="supslap" time="0.497">
+  <properties/>
+  <testcase name="testPopulateLogDetailsParam" classname="com.spnd.business.processsor.PersistReportTaskTest" time="0.497"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

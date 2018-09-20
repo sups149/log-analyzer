@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spnd.business.processsor.LogAnalyzerProcessorImplV2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-20T05:34:16" hostname="supslap" time="0.481">
+  <properties/>
+  <testcase name="testGetGroupedDataFromFile" classname="com.spnd.business.processsor.LogAnalyzerProcessorImplV2Test" time="0.481"/>
+  <system-out><![CDATA[11:04:16.975 [Test worker] INFO  c.s.b.p.LogAnalyzerProcessorImplV2 - Entering getGroupedDataFromFile(Stream<String>)
+11:04:16.988 [Test worker] INFO  c.s.b.p.LogAnalyzerProcessorImplV2 - Leaving getGroupedDataFromFile()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

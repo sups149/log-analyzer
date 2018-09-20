@@ -8,4 +8,5 @@ public class LogAnalyzerConstants {
     public static final String JDBC_PASSWORD = "jdbc.password";
     public static final String HIBERNATE_DIALECT = "hibernate.dialect";
     public static final String HIBERNATE_SHOW_SQL = "hibernate.show_sql";
+    public static final String MAX_DURATION = "max.duration";
 }
