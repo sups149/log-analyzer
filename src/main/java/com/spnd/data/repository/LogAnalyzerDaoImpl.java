@@ -18,21 +18,33 @@ public class LogAnalyzerDaoImpl implements LogAnalyzerDao {
     Logger logger = LoggerFactory.getLogger(this.getClass());
     @Autowired
     private SessionFactory sessionFactory;
-    //private HibernateConfiguation configuation = new HibernateConfiguation()
     @Override
     public void inserRecords(List<LogDetailsEntity> logDetailsList) {
-        //Session session = HibernateConfiguation.getSession();
-
+        if(logger.isDebugEnabled()) {
+            logger.debug("Entering inserRecords(List<LogDetailsEntity>)");
+        }
         Session session = sessionFactory.getCurrentSession();
         logDetailsList.forEach(logDetails -> {
+            if(logger.isDebugEnabled()) {
+                logger.debug("Inserting record: {}", logDetails);
+            }
             session.save(logDetails);
         });
+        if(logger.isDebugEnabled()) {
+            logger.debug("Entering inserRecords()");
+        }
     }
 
     @Override
     public Serializable inserRecord(LogDetailsEntity logDetails) {
+        if(logger.isDebugEnabled()) {
+            logger.debug("Entering inserRecord(logDetails = {})", logDetails);
+        }
         Session session = sessionFactory.getCurrentSession();
         Serializable ab = session.save(logDetails);
+        if(logger.isDebugEnabled()) {
+            logger.debug("Leaving inserRecord(): {}", ab);
+        }
         return ab;
     }
 }

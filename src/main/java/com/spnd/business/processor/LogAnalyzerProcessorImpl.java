@@ -21,11 +21,16 @@ import java.util.stream.Stream;
 @Component
 @Profile("stream")
 public class LogAnalyzerProcessorImpl extends AbstractLogAnalyzerProcessor{
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 
+    /*
+    This method leverage parallel processing of Streams.
+     */
     public Map<String,List<String>> getGroupedDataFromFile(Stream<String> contentStream) throws IOException {
+        logger.info("Entering getGroupedDataFromFile(Stream<String>)");
         Map<String, List<String>> logMap =  contentStream.parallel().collect(Collectors.groupingBy(JsonUtil::getId));
+        logger.info("Leaving getGroupedDataFromFile()");
         return logMap;
     }
 }

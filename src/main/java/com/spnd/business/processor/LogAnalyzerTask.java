@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LogAnalyzerTask implements Runnable {
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
     private Map<String, List<String>> groupedLogMap;
     private String jsonData;
 
@@ -21,10 +21,15 @@ public class LogAnalyzerTask implements Runnable {
 
     @Override
     public void run() {
-        logger.info("Executing job");
+        if(logger.isDebugEnabled()) {
+            logger.debug("Entering run() with jsonData {}", jsonData);
+        }
         List<String> jsonList = groupedLogMap.putIfAbsent(JsonUtil.getId(jsonData), (new LinkedList<>(Arrays.asList(jsonData))));
         if (jsonList != null) {
             jsonList.add(jsonData);
+        }
+        if(logger.isDebugEnabled()) {
+            logger.debug("Leaving run()");
         }
     }
 }

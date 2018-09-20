@@ -24,15 +24,18 @@ import java.util.stream.Stream;
 @Component
 @Profile("taskexecutor")
 public class LogAnalyzerProcessorImplV2 extends AbstractLogAnalyzerProcessor {
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
     @Autowired
     private ThreadPoolTaskExecutor threadPoolTaskExecutor;
 
 
     public Map<String,List<String>> getGroupedDataFromFile(Stream<String> contentStream) throws IOException {
-        logger.info("Starting getGroupedDataFromFile method of LogAnalyzerProcessorImplV2");
+        logger.info("Entering getGroupedDataFromFile(Stream<String>)");
         ConcurrentMap<String, List<String>> logMap = new ConcurrentHashMap<>();
         contentStream.forEach(jsonRecord -> {
+            if(logger.isDebugEnabled()) {
+                logger.debug("Processing jsonRecord: {}", jsonRecord);
+            }
             try{
                 threadPoolTaskExecutor.execute(new LogAnalyzerTask(logMap, jsonRecord));
             } catch (Exception e) {
@@ -41,11 +44,14 @@ public class LogAnalyzerProcessorImplV2 extends AbstractLogAnalyzerProcessor {
         });
         while (true) {
             if(threadPoolTaskExecutor.getActiveCount() == 0) {
-                logger.info("Shutting down Executor");
+                if(logger.isDebugEnabled()) {
+                    logger.debug("Shutting down Executor");
+                }
                 threadPoolTaskExecutor.shutdown();
                 break;
             }
         }
+        logger.info("Leaving getGroupedDataFromFile()");
         return logMap;
     }
 }

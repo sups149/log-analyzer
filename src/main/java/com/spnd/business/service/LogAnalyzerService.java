@@ -24,14 +24,20 @@ public class LogAnalyzerService {
     private String filePath;
 
     public void manageLogContent() {
+        logger.info("Entering manageLogContent()");
+        if(logger.isDebugEnabled()) {
+            logger.debug("Reading file from path: {}", filePath);
+        }
         try(Stream<String> stream = Files.lines(Paths.get(filePath))) {
-
+            logger.debug("Calling getGroupedDataFromFile()");
             Map<String, List<String>> logMap = logAnalyzerProcessor.getGroupedDataFromFile(stream);
+            logger.debug("Calling getGroupedDataFromFile()");
             logAnalyzerProcessor.processGrouppedData(logMap);
 
         } catch (IOException e) {
             logger.error("Exception occured while processing file", e);
         }
+        logger.info("Leaving manageLogContent()");
     }
 
 

@@ -1,6 +1,7 @@
 package com.spnd.data.entity;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import javax.persistence.*;
 
@@ -72,6 +73,9 @@ public class LogDetailsEntity {
 
 
     public String toString() {
-        return ReflectionToStringBuilder.toString(this);
+        return new ToStringBuilder(this)
+                .append("eventId", eventId)
+                .append("duration", duration)
+                .toString();
     }
 }

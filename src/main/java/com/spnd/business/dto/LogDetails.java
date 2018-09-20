@@ -1,5 +1,7 @@
 package com.spnd.business.dto;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 public class LogDetails {
     private String id;
     private String state;
@@ -45,5 +47,13 @@ public class LogDetails {
 
     public void setTimestamp(Long timestamp) {
         this.timestamp = timestamp;
+    }
+
+    public String toString() {
+        return new ToStringBuilder(this)
+                .append("id", id)
+                .append("state", state)
+                .append("timestamp", timestamp)
+                .toString();
     }
 }

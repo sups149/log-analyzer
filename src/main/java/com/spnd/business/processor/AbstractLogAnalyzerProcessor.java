@@ -14,15 +14,20 @@ import java.util.Map;
 
 @Component
 public abstract class AbstractLogAnalyzerProcessor implements LogAnalyzerProcessor{
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
     @Autowired
     private LogAnalyzerDao logAnalyzerDao;
 
     public void processGrouppedData(Map<String, List<String>> logMap) {
+        if(logger.isDebugEnabled()) {
+            logger.debug("Entering processGrouppedData(Map<String, List<String>>()");
+        }
         logMap.forEach((eventId, jsonRecordList) -> {
             Long duration = JsonUtil.calculateDuration(jsonRecordList);
             if(duration > 4) {
-                logger.info("Event duration is beyond permissible limit");
+                if(logger.isDebugEnabled()) {
+                    logger.debug("Event duration is beyond permissible limit: {}", duration);
+                }
                 LogDetailsEntity logDetails = populateLogDetailsParam(eventId, jsonRecordList.get(0), duration);
                 try {
                     logAnalyzerDao.inserRecord(logDetails);
