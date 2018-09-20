@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d22a439-f1e1-4393-946d-cde379d4086c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.2/fileContent/fileContent.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.2/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.2/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/logmonitor_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/logmonitor_main.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/logmonitor_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/logmonitor_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/AbstractLogAnalyzerProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/AbstractLogAnalyzerProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spnd/constants/LogAnalyzerConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/spnd/constants/LogAnalyzerConstants.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java" />
-    </list>
+    <list default="true" id="fe2bb910-aee0-485f-afca-1bc7cf9235a2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,12 +45,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="logmonitor" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="logmonitor" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -80,55 +55,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogAnalyzerDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDaoImpl.java">
+    <leaf>
+      <file leaf-file-name="LogAnalyzerJunitHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/helper/LogAnalyzerJunitHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <file leaf-file-name="LogAnalyzerProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback-test.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/logback-test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="262">
-                <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractLogAnalyzerProcessorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="52" column="86" lean-forward="false" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
+            <state relative-caret-position="119">
+              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -137,8 +81,44 @@
       <file leaf-file-name="AbstractLogAnalyzerProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/AbstractLogAnalyzerProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="96" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="96" />
+            <state relative-caret-position="102">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractLogAnalyzerProcessorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogAnalyzerDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogAnalyzerDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -147,39 +127,43 @@
       <file leaf-file-name="LogAnalyzerApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/LogAnalyzerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogAnalyzerConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/constants/LogAnalyzerConstants.java">
+      <file leaf-file-name="LogAnalyzerProcessorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="207">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogAnalyzerProcessorImplV2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImplV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogAnalyzerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/config/LogAnalyzerConfig.java">
+      <file leaf-file-name="LogAnalyzerProcessorImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="222">
+              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,19 +179,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toString</find>
-      <find>info(</find>
-      <find>debug</find>
-      <find>PrepareForTest</find>
+      <find>spy</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\gradle-4.2" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\607432440\WIP\BT\Internal\work\machine\gradle-4.2" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -412,8 +390,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3074240647369" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3932854109" />
+        <entry key="$USER_HOME$/.gradle/gradle.properties" value="1400869218" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1754576211" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="217322886" />
       </map>
     </option>
@@ -436,145 +414,145 @@
               <option name="name" value="logmonitor" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/gradle-4.2/src/announce" />
-                  <option value="C:/gradle-4.2/src/antlr" />
-                  <option value="C:/gradle-4.2/src/base-services" />
-                  <option value="C:/gradle-4.2/src/base-services-groovy" />
-                  <option value="C:/gradle-4.2/src/build-cache" />
-                  <option value="C:/gradle-4.2/src/build-cache-http" />
-                  <option value="C:/gradle-4.2/src/build-comparison" />
-                  <option value="C:/gradle-4.2/src/build-init" />
-                  <option value="C:/gradle-4.2/src/cli" />
-                  <option value="C:/gradle-4.2/src/code-quality" />
-                  <option value="C:/gradle-4.2/src/composite-builds" />
-                  <option value="C:/gradle-4.2/src/core" />
-                  <option value="C:/gradle-4.2/src/core-api" />
-                  <option value="C:/gradle-4.2/src/dependency-management" />
-                  <option value="C:/gradle-4.2/src/diagnostics" />
-                  <option value="C:/gradle-4.2/src/ear" />
-                  <option value="C:/gradle-4.2/src/ide" />
-                  <option value="C:/gradle-4.2/src/ide-native" />
-                  <option value="C:/gradle-4.2/src/ide-play" />
-                  <option value="C:/gradle-4.2/src/installation-beacon" />
-                  <option value="C:/gradle-4.2/src/internal-android-performance-testing" />
-                  <option value="C:/gradle-4.2/src/internal-integ-testing" />
-                  <option value="C:/gradle-4.2/src/internal-performance-testing" />
-                  <option value="C:/gradle-4.2/src/internal-testing" />
-                  <option value="C:/gradle-4.2/src/ivy" />
-                  <option value="C:/gradle-4.2/src/jacoco" />
-                  <option value="C:/gradle-4.2/src/javascript" />
-                  <option value="C:/gradle-4.2/src/jvm-services" />
-                  <option value="C:/gradle-4.2/src/language-groovy" />
-                  <option value="C:/gradle-4.2/src/language-java" />
-                  <option value="C:/gradle-4.2/src/language-jvm" />
-                  <option value="C:/gradle-4.2/src/language-native" />
-                  <option value="C:/gradle-4.2/src/language-scala" />
-                  <option value="C:/gradle-4.2/src/launcher" />
-                  <option value="C:/gradle-4.2/src/logging" />
-                  <option value="C:/gradle-4.2/src/maven" />
-                  <option value="C:/gradle-4.2/src/messaging" />
-                  <option value="C:/gradle-4.2/src/model-core" />
-                  <option value="C:/gradle-4.2/src/model-groovy" />
-                  <option value="C:/gradle-4.2/src/native" />
-                  <option value="C:/gradle-4.2/src/osgi" />
-                  <option value="C:/gradle-4.2/src/persistent-cache" />
-                  <option value="C:/gradle-4.2/src/platform-base" />
-                  <option value="C:/gradle-4.2/src/platform-jvm" />
-                  <option value="C:/gradle-4.2/src/platform-native" />
-                  <option value="C:/gradle-4.2/src/platform-play" />
-                  <option value="C:/gradle-4.2/src/plugin-development" />
-                  <option value="C:/gradle-4.2/src/plugin-use" />
-                  <option value="C:/gradle-4.2/src/plugins" />
-                  <option value="C:/gradle-4.2/src/process-services" />
-                  <option value="C:/gradle-4.2/src/publish" />
-                  <option value="C:/gradle-4.2/src/reporting" />
-                  <option value="C:/gradle-4.2/src/resources" />
-                  <option value="C:/gradle-4.2/src/resources-gcs" />
-                  <option value="C:/gradle-4.2/src/resources-http" />
-                  <option value="C:/gradle-4.2/src/resources-s3" />
-                  <option value="C:/gradle-4.2/src/resources-sftp" />
-                  <option value="C:/gradle-4.2/src/scala" />
-                  <option value="C:/gradle-4.2/src/signing" />
-                  <option value="C:/gradle-4.2/src/test-kit" />
-                  <option value="C:/gradle-4.2/src/testing-base" />
-                  <option value="C:/gradle-4.2/src/testing-jvm" />
-                  <option value="C:/gradle-4.2/src/testing-native" />
-                  <option value="C:/gradle-4.2/src/tooling-api" />
-                  <option value="C:/gradle-4.2/src/tooling-api-builders" />
-                  <option value="C:/gradle-4.2/src/workers" />
-                  <option value="C:/gradle-4.2/src/wrapper" />
-                  <option value="C:/gradle-4.2/lib/ant-1.9.6.jar" />
-                  <option value="C:/gradle-4.2/lib/ant-launcher-1.9.6.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-base-services-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-base-services-groovy-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-build-cache-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-cli-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-core-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-core-api-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-docs-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-installation-beacon-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-jvm-services-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-kotlin-dsl-0.11.1.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-kotlin-dsl-tooling-builders-0.11.1.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-launcher-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-logging-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-messaging-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-model-core-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-model-groovy-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-native-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-persistent-cache-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-process-services-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-resources-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-runtime-api-info-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-tooling-api-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/gradle-wrapper-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/groovy-all-2.4.11.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-announce-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-antlr-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-build-cache-http-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-build-comparison-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-build-init-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-code-quality-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-composite-builds-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-dependency-management-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-diagnostics-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-ear-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-ide-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-ide-native-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-ide-play-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-ivy-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-jacoco-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-javascript-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-language-groovy-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-language-java-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-language-jvm-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-language-native-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-language-scala-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-maven-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-osgi-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-platform-base-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-platform-jvm-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-platform-native-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-platform-play-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-plugin-development-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-plugin-use-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-plugins-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-publish-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-reporting-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-resources-gcs-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-resources-http-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-resources-s3-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-resources-sftp-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-scala-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-signing-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-test-kit-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-testing-base-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-testing-jvm-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-testing-native-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-tooling-api-builders-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/gradle-workers-4.2.jar" />
-                  <option value="C:/gradle-4.2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/announce" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/antlr" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/base-services" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/base-services-groovy" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/build-cache" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/build-cache-http" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/build-comparison" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/build-init" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/cli" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/code-quality" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/composite-builds" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/core" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/core-api" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/dependency-management" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/diagnostics" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/ear" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/ide" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/ide-native" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/ide-play" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/installation-beacon" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/internal-android-performance-testing" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/internal-integ-testing" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/internal-performance-testing" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/internal-testing" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/ivy" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/jacoco" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/javascript" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/jvm-services" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/language-groovy" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/language-java" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/language-jvm" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/language-native" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/language-scala" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/launcher" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/logging" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/maven" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/messaging" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/model-core" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/model-groovy" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/native" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/osgi" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/persistent-cache" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/platform-base" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/platform-jvm" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/platform-native" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/platform-play" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/plugin-development" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/plugin-use" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/plugins" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/process-services" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/publish" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/reporting" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/resources" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/resources-gcs" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/resources-http" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/resources-s3" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/resources-sftp" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/scala" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/signing" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/test-kit" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/testing-base" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/testing-jvm" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/testing-native" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/tooling-api" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/tooling-api-builders" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/workers" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/src/wrapper" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/ant-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-base-services-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-base-services-groovy-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-build-cache-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-cli-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-core-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-core-api-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-docs-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-installation-beacon-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-jvm-services-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-kotlin-dsl-0.11.1.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-kotlin-dsl-tooling-builders-0.11.1.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-launcher-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-logging-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-messaging-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-model-core-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-model-groovy-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-native-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-persistent-cache-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-process-services-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-resources-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-runtime-api-info-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-tooling-api-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/gradle-wrapper-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/groovy-all-2.4.11.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-announce-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-antlr-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-build-cache-http-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-build-comparison-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-build-init-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-code-quality-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-composite-builds-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-dependency-management-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-diagnostics-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-ear-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-ide-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-ide-native-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-ide-play-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-ivy-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-jacoco-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-javascript-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-language-groovy-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-language-java-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-language-jvm-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-language-native-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-language-scala-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-maven-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-osgi-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-platform-base-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-platform-jvm-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-platform-native-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-platform-play-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-plugin-development-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-plugin-use-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-plugins-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-publish-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-reporting-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-resources-gcs-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-resources-http-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-resources-s3-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-resources-sftp-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-scala-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-signing-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-test-kit-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-testing-base-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-testing-jvm-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-testing-native-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-tooling-api-builders-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/gradle-workers-4.2.jar" />
+                  <option value="$PROJECT_DIR$/../../machine/gradle-4.2/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -589,55 +567,30 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/Google Drive/Technical/workspace_GD/kcim-ukb" value="PREVIEW" />
-        <entry key="$USER_HOME$/Google Drive/Technical/workspace_GD/log-analyzer-v2" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/Ex_Files_Spring_TestDev_JUnit/Exercise Files/Chapter5/05_02/end" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/../tour-management" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../workspace/MailSender" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kcim-config-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../logmonitor" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/data/repository/LogAnalyzerDaoImplIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/ExecutorProfileContextLoadTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/StreamProfileContextLoadTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/data/repository/LogAnalyzerDaoImplJunitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/helper/LogAnalyzerJunitHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerTaskTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback-test.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/LogAnalyzerApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/config/LogAnalyzerConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/PersistReportTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/PersistReportTaskTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplV2Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/data/entity/LogDetailsEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/util/JsonUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/dto/LogDetails.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spnd/data/repository/LogAnalyzerDaoImplIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testlog.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/service/LogAnalyzerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/AbstractLogAnalyzerProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImplV2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/constants/LogAnalyzerConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spnd/business/processor/AbstractLogAnalyzerProcessor.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spnd/helper/LogAnalyzerJunitHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -660,43 +613,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -704,8 +660,8 @@
               <item name="spnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -714,8 +670,8 @@
               <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -725,8 +681,8 @@
               <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -736,8 +692,8 @@
               <item name="processor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -747,8 +703,8 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -758,8 +714,8 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -768,8 +724,8 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -778,8 +734,8 @@
               <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -788,8 +744,8 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -799,8 +755,8 @@
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -810,36 +766,36 @@
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -847,8 +803,8 @@
               <item name="spnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -857,8 +813,8 @@
               <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -868,8 +824,8 @@
               <item name="processsor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -879,8 +835,8 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -889,8 +845,8 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -900,8 +856,8 @@
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -910,38 +866,31 @@
               <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="logmonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log-analyzer-v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sups\Repository_Git\log-analyzer\src\test\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sups\Repository_Git\log-analyzer\src\main\resources" />
+      <recent name="C:\Users\607432440\WIP\BT\Internal\work\workspace_IJ\log-analyzer-v2\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -956,7 +905,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.log-analyzer [test]">
+  <component name="RunManager" selected="Gradle.log-analyzer-v2 [clean]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -971,7 +920,7 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.spnd.LogAnalyzerApp" />
-      <option name="VM_PARAMETERS" value="-Dfile.path=$PROJECT_DIR$/../log.txt -Dapp.name=log-analyzer -Dlog.path=&quot;$USER_HOME$/Google Drive/Technical/workspace_GD/log&quot; -Dspring.profiles.active=taskexecutor" />
+      <option name="VM_PARAMETERS" value="-Dfile.path=$PROJECT_DIR$/../log.txt -Dlog.path=$PROJECT_DIR$/../log -Dapp.name=log-analyzer -Dspring.profiles.active=stream" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -996,7 +945,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="log-analyzer [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="log-analyzer-v2 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -1007,14 +956,14 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="LogAnalyzerProcessorImplV2Test.testGetGroupedDataFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.spnd.business.processsor.*" />
@@ -1025,8 +974,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.spnd.business.processsor" />
-      <option name="MAIN_CLASS_NAME" value="com.spnd.business.processsor.LogAnalyzerProcessorImplV2Test" />
-      <option name="METHOD_NAME" value="testGetGroupedDataFromFile" />
+      <option name="MAIN_CLASS_NAME" value="com.spnd.business.processsor.AbstractLogAnalyzerProcessorTest" />
+      <option name="METHOD_NAME" value="testProcessGrouppedData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1039,7 +988,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PersistReportTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogAnalyzerProcessorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.spnd.business.processsor.*" />
@@ -1050,7 +999,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.spnd.business.processsor" />
-      <option name="MAIN_CLASS_NAME" value="com.spnd.business.processsor.PersistReportTaskTest" />
+      <option name="MAIN_CLASS_NAME" value="com.spnd.business.processsor.LogAnalyzerProcessorImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1064,7 +1013,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PersistReportTaskTest.testPersistReports" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogAnalyzerProcessorImplTest.testMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.spnd.business.processsor.*" />
@@ -1075,8 +1024,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.spnd.business.processsor" />
-      <option name="MAIN_CLASS_NAME" value="com.spnd.business.processsor.PersistReportTaskTest" />
-      <option name="METHOD_NAME" value="testPersistReports" />
+      <option name="MAIN_CLASS_NAME" value="com.spnd.business.processsor.LogAnalyzerProcessorImplTest" />
+      <option name="METHOD_NAME" value="testMet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1151,18 +1100,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.LogAnalyzerApp" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.log-analyzer [test]" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PersistReportTaskTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PersistReportTaskTest.testPersistReports" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LogAnalyzerProcessorImplV2Test.testGetGroupedDataFromFile" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LogAnalyzerProcessorImplTest.testMet" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LogAnalyzerProcessorImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.log-analyzer-v2 [clean]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LogAnalyzerApp" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.log-analyzer [test]" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LogAnalyzerProcessorImplV2Test.testGetGroupedDataFromFile" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PersistReportTaskTest.testPersistReports" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PersistReportTaskTest" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.log-analyzer-v2 [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LogAnalyzerApp" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LogAnalyzerProcessorImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LogAnalyzerProcessorImplTest.testMet" />
       </list>
     </recent_temporary>
   </component>
@@ -1174,90 +1123,78 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d22a439-f1e1-4393-946d-cde379d4086c" name="Default" comment="" />
-      <created>1537294463800</created>
+      <changelist id="fe2bb910-aee0-485f-afca-1bc7cf9235a2" name="Default" comment="" />
+      <created>1537252116798</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1537294463800</updated>
-      <workItem from="1537294474051" duration="13189000" />
-      <workItem from="1537330156559" duration="5349000" />
-      <workItem from="1537373525695" duration="29369000" />
+      <updated>1537252116798</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogAnalyzerProcessorImplV2Test_testGetGroupedDataFromFile - 2018.09.20 at 04h 01m 24s.xml">
-      <configuration name="LogAnalyzerProcessorImplV2Test.testGetGroupedDataFromFile" configurationId="JUnit" />
+    <history-entry file="AbstractLogAnalyzerProcessorTest_testProcessGrouppedData - 2018.09.18 at 20h 37m 57s.xml">
+      <configuration name="AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersistReportTaskTest_testPersistReports - 2018.09.20 at 03h 43m 44s.xml">
-      <configuration name="PersistReportTaskTest.testPersistReports" configurationId="JUnit" />
+    <history-entry file="AbstractLogAnalyzerProcessorTest_testProcessGrouppedData - 2018.09.18 at 20h 39m 15s.xml">
+      <configuration name="AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersistReportTaskTest_testPersistReports - 2018.09.20 at 03h 49m 59s.xml">
-      <configuration name="PersistReportTaskTest.testPersistReports" configurationId="JUnit" />
+    <history-entry file="AbstractLogAnalyzerProcessorTest_testProcessGrouppedData - 2018.09.18 at 20h 48m 45s.xml">
+      <configuration name="AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 03h 50m 42s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="AbstractLogAnalyzerProcessorTest_testProcessGrouppedData - 2018.09.18 at 20h 50m 16s.xml">
+      <configuration name="AbstractLogAnalyzerProcessorTest.testProcessGrouppedData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 04h 08m 04s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LogAnalyzerProcessorImplTest - 2018.09.18 at 18h 30m 50s.xml">
+      <configuration name="LogAnalyzerProcessorImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 04h 09m 12s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LogAnalyzerProcessorImplTest - 2018.09.18 at 19h 42m 35s.xml">
+      <configuration name="LogAnalyzerProcessorImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 04h 15m 32s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LogAnalyzerProcessorImplTest_testMet - 2018.09.18 at 18h 22m 40s.xml">
+      <configuration name="LogAnalyzerProcessorImplTest.testMet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 09h 47m 48s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LogAnalyzerProcessorImplTest_testMet - 2018.09.18 at 18h 24m 18s.xml">
+      <configuration name="LogAnalyzerProcessorImplTest.testMet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 09h 50m 39s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LogAnalyzerProcessorImplTest_testMet - 2018.09.18 at 18h 28m 23s.xml">
+      <configuration name="LogAnalyzerProcessorImplTest.testMet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="log-analyzer_[test] - 2018.09.20 at 11h 01m 21s.xml">
-      <configuration name="log-analyzer [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LogAnalyzerProcessorImplTest_testMet - 2018.09.18 at 19h 42m 05s.xml">
+      <configuration name="LogAnalyzerProcessorImplTest.testMet" configurationId="JUnit" />
     </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.098828696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29727685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1268,432 +1205,343 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Files.lines(Mockito.any(Path.class))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Mockito.any(Path.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/service/LogAnalyzerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/helper/LogAnalyzerJunitHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/ExecutorProfileContextLoadTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1407#1408#0" expanded="false" />
-            <element signature="e#1457#1458#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/LogAnalyzerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.path_IS_UNDEFINED/app.name_IS_UNDEFINED.log" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/StreamProfileContextLoadTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.6.Final/3b90051c597cfdbe1855315a0257bd79475dd277/hibernate-core-5.3.6.Final-sources.jar!/org/hibernate/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/data/repository/LogAnalyzerDaoImplIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/data/repository/LogAnalyzerDaoImplJunitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="59" column="56" lean-forward="true" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1127#1128#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/helper/LogAnalyzerJunitHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/ExecutorProfileContextLoadTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.6.Final/3b90051c597cfdbe1855315a0257bd79475dd277/hibernate-core-5.3.6.Final-sources.jar!/org/hibernate/SessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.6.Final/3b90051c597cfdbe1855315a0257bd79475dd277/hibernate-core-5.3.6.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="694" column="24" lean-forward="false" selection-start-line="694" selection-start-column="24" selection-end-line="694" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.6.Final/3b90051c597cfdbe1855315a0257bd79475dd277/hibernate-core-5.3.6.Final-sources.jar!/org/hibernate/internal/SessionFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="492" column="19" lean-forward="false" selection-start-line="492" selection-start-column="19" selection-end-line="492" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.6.RELEASE/ca475012ae43a0745d3cfc0bae4e52de0fddc29f/spring-jcl-5.0.6.RELEASE-sources.jar!/org/apache/commons/logging/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.6.RELEASE/de2918a28885168be4bc9762c180b8fdc92c11c/spring-tx-5.0.6.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="113" column="25" lean-forward="false" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.0.6.RELEASE/d67743b8374a04c697b7315cee4762922f382736/spring-orm-5.0.6.RELEASE-sources.jar!/org/springframework/orm/hibernate5/HibernateTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4964">
-          <caret line="400" column="39" lean-forward="false" selection-start-line="400" selection-start-column="39" selection-end-line="400" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.6.RELEASE/78d14dd2647aeccc925bbf9c780f97243ec3d2bd/spring-context-5.0.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/util/JsonUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.7.0/863df194223a09fefd821b0455a0947ac8affa55/powermock-reflect-1.7.0-sources.jar!/org/powermock/reflect/Whitebox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/PersistReportTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/PersistReportTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplV2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/dto/LogDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1310">
-          <caret line="117" column="51" lean-forward="false" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/service/LogAnalyzerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/entity/LogDetailsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImplV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/config/LogAnalyzerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/constants/LogAnalyzerConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/dto/LogDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#853#854#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#1194#1195#0" expanded="false" />
+            <element signature="e#1246#1247#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/data/repository/LogAnalyzerDaoImplIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplV2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testlog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="107" lean-forward="false" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../machine/jdk8u151/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.7.0/5c3a0f2b7e956010328b9efa4183d84f736eab6f/powermock-core-1.7.0-sources.jar!/org/powermock/core/classloader/annotations/PrepareForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../machine/jdk8u151/jre/lib/rt.jar!/java/util/stream/Stream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/util/JsonUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="56" column="50" lean-forward="true" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../machine/jdk8u151/jre/lib/rt.jar!/java/nio/file/Files.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="954" column="0" lean-forward="false" selection-start-line="954" selection-start-column="0" selection-end-line="954" selection-end-column="0" />
+          <folding>
+            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/Mockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1640" column="24" lean-forward="false" selection-start-line="1640" selection-start-column="24" selection-end-line="1640" selection-end-column="24" />
+          <folding>
+            <element signature="e#75743#75744#0" expanded="false" />
+            <element signature="e#75799#75800#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../machine/jdk8u151/jre/lib/rt.jar!/java/nio/file/Path.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-815">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../machine/jdk8u151/jre/lib/rt.jar!/java/nio/file/Paths.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito2/1.7.0RC2/ed9b86a8c72e0679b3d76ffb533462aef7af1fe1/powermock-api-mockito2-1.7.0RC2-sources.jar!/org/powermock/api/mockito/PowerMockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="236" column="40" lean-forward="false" selection-start-line="236" selection-start-column="40" selection-end-line="236" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/service/LogAnalyzerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/LogAnalyzerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="262">
-            <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImplV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/LogAnalyzerProcessorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/LogAnalyzerProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/business/processor/AbstractLogAnalyzerProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="96" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="96" />
+        <state relative-caret-position="102">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spnd/data/repository/LogAnalyzerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/helper/LogAnalyzerJunitHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spnd/business/processsor/AbstractLogAnalyzerProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="52" column="86" lean-forward="false" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.19401042" />
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

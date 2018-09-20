@@ -1,4 +1,0 @@
-u11:04:15.905 [Test worker] INFO  c.s.b.p.LogAnalyzerProcessorImpl - Entering getGroupedDataFromFile(Stream<String>)
-f11:04:15.934 [Test worker] INFO  c.s.b.p.LogAnalyzerProcessorImpl - Leaving getGroupedDataFromFile()
-w11:04:16.975 [Test worker] INFO  c.s.b.p.LogAnalyzerProcessorImplV2 - Entering getGroupedDataFromFile(Stream<String>)
-h11:04:16.988 [Test worker] INFO  c.s.b.p.LogAnalyzerProcessorImplV2 - Leaving getGroupedDataFromFile()
