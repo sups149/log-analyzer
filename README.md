@@ -11,7 +11,8 @@ This instruction will help to build, test and configure the application.
 
 ### Installation
 It can be cloned or downloaded from Github and can be imported into IDE of you choice as Gradle project.
-Before build, please change below:
+
+Please change below Before build:
 - Inside **resources/config.properties** change the configurations as appropriate:
 
     Example: **jdbc.url=jdbc:hsqldb:hsql://localhost/testdb**
