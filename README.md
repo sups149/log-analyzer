@@ -51,7 +51,15 @@ gradle test
 1. To run the application execute logmonitor or logmonitor.bat from respective environments.
 
 ## Application Details
-The application has been developed with Spring and Hibernate ORM framework and for unit testing I have used Mockito mocking framework.
+The application has been developed with Spring and Hibernate ORM framework, for unit testing I have used Mockito mocking framework
+and logback for logging.
+
+Java 8 Features used:
+- Lambdas
+- Method references
+- Interace with default method
+- Stream API
+
 I have developed two ways to handle file procession using multithreading approach.
 - Java parallel stream using Collector and Groupingby
 - Using ThreadPoolTask executor and then executing the runnables with multiple thread.
