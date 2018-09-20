@@ -16,6 +16,8 @@ Please change below Before build:
 - Inside **resources/config.properties** change the configurations as appropriate:
 
     Example: **jdbc.url=jdbc:hsqldb:hsql://localhost/testdb**
+    
+- Run the DDL script **resources/schema.sql** in HSQLDB.
 
 ### Build
 To build this application run below command from project root directory:
