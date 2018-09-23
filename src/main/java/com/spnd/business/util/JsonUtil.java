@@ -88,7 +88,7 @@ public class JsonUtil {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Exception occurder while extracting JSON test value", e);
         }
         if(logger.isDebugEnabled()) {
             logger.debug("Leaving getTextFieldValue(): {}", returnVal);
@@ -112,7 +112,7 @@ public class JsonUtil {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Exception occurder while extracting JSON Long value", e);
         }
         if(logger.isDebugEnabled()) {
             logger.debug("Leaving getLongFieldValue(): {}", returnVal);

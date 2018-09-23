@@ -1,5 +1,6 @@
 package com.spnd.config;
 
+import com.spnd.constants.LogAnalyzerConstants;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import org.hibernate.SessionFactory;
@@ -100,8 +101,8 @@ public class LogAnalyzerConfig {
     @Profile("taskexecutor")
     public ThreadPoolTaskExecutor threadPoolTaskExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(4);
-        executor.setMaxPoolSize(16);
+        executor.setCorePoolSize(Integer.parseInt(env.getProperty(LogAnalyzerConstants.CORE_THREAD_POOL_SIZE)));
+        executor.setMaxPoolSize(Integer.parseInt(env.getProperty(LogAnalyzerConstants.MAX_THREAD_POOL_SIZE)));
         executor.setThreadNamePrefix("task_executor_thread");
         executor.initialize();
         return executor;
